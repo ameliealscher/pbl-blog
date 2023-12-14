@@ -1,10 +1,7 @@
 ---
 layout: post
-title: "Implementing a method for searching books"
+title: "searching for books inside the Google Books API"
 ---
-## Introduction
-Hi! My name is Amélie Alscher and I recently finished a 10-month Java programming course at [everyone codes](https://everyonecodes.io/). In order to practice our newly-gained skills in Java and Spring Boot, we had 6 weeks to work on a small project of our choice. My love for books made me write a small application for reviewing books. 
-
 ## My problem
 A requirement for my application was to be able to search books by titles or authors int the Google Books API. After entering a keyword into the searchbar and clicking search, a list of books should appear. These books should also immediately be saved to the database.
 
