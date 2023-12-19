@@ -3,7 +3,7 @@ layout: post
 title: "searching for books inside the Google Books API"
 ---
 ## My problem
-A requirement for my application was to be able to search books by titles or authors int the Google Books API. After entering a keyword into the searchbar and clicking search, a list of books should appear. These books should also immediately be saved to the database.
+A requirement for my application was to be able to search books by titles or authors in the Google Books API. After entering a keyword into the searchbar and clicking search, a list of books should appear. These books should also immediately be saved to the database.
 
 The challenge involves integrating the Google Books API into an application, searching for books by title or author, retrieving a list of books, and saving them to a database. Initially, the implementation used manual HTTP requests and JSON parsing, but it was not considered optimal. To improve the approach, a WebClient and Jackson library were employed for a more efficient solution.
 
